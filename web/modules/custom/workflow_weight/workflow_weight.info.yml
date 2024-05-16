@@ -1,0 +1,8 @@
+name: 'Workflow Weight'
+type: module
+description: 'Provides a sort criteria for workflow states by weight.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+dependencies:
+  - drupal:views
+  - drupal:workflow
