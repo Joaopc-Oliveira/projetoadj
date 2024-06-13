@@ -1,0 +1,7 @@
+name: Dynamic Menu
+type: module
+description: 'Implements a dynamic menu with AJAX and cookies.'
+core_version_requirement: ^8 || ^9
+package: Custom
+dependencies:
+  - node

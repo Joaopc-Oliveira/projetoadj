@@ -1,0 +1,16 @@
+dynamic_menu.content:
+  path: '/dynamic-menu'
+  defaults:
+    _controller: '\Drupal\dynamic_menu\Controller\DynamicMenuController::content'
+    _title: 'Dynamic Menu'
+  requirements:
+    _permission: 'access content'
+
+dynamic_menu.load_content:
+  path: '/dynamic-menu/load-content'
+  defaults:
+    _controller: '\Drupal\dynamic_menu\Controller\DynamicMenuController::loadContent'
+  requirements:
+    _permission: 'access content'
+  options:
+    _format: 'json'
